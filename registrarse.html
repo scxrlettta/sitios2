@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+	<title>ETIQUETAS SEMANTICAS Y SLIDES</title>
+</head>
+<body>
+	<header>
+			<img src="img/san.png" width="100%" height="250px">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">INICIO</a></li>
+			<li><a href="servicios.html">SERVICIOS</a></li>
+			<li><a href="contactos.html"> CONTACTOS</a></li>
+			<li><a href="registrarse.html">REGISTRARSE</a></li>
+		</ul>
+	</nav>
+	<main>
+		<form id="formulario" method="POST" action="">
+			<fieldset>
+				<legend>DATOS DE REGISTRO</legend>
+				<span class="etiqueta">CEDULA: </span>
+				<input type="text" class="texto" name="txtcedula" maxlength="10" placeholder="Maximo 10 digitos"><br>
+				<span class="etiqueta">NOMBRES: </span>
+				<input type="text" class="texto" name="txtnombre"><br>
+				<span class="etiqueta">APELLIDOS: </span>
+				<input type="text" class="texto" name="txtapellidos"><br>
+				<span class="etiqueta">CORREO: </span>
+				<input type="email" class="texto" name="txtcorreo"><br>
+				<span class="etiqueta">USUARIO: </span>
+				<input type="text" class="texto" name="txtusuario"><br>
+				<span class="etiqueta">CONTRASEÑA: </span>
+				<input type="password" class="texto" name="txtclave"><br>
+				<span>ESTADO CIVIL: </span><br>
+				<input type="radio" name="opEstCivil">SOLTERO<br>
+				<input type="radio" name="opEstCivil">CASADO<br>
+				<input type="radio" name="opEstCivil">DIVORCIADO<br>
+				<input type="radio" name="opEstCivil">UNION DE HECHO<br>
+				<input type="radio" name="opEstCivil">VIUDO<br>
+				<input type="submit" name="btnEnviar" value="Ingresar">
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<div class="red">
+			<a href="https://www.facebook.com/Sanrio?locale=es_LA"><img src="img/feisbok.png" width="50px" height="100px"></a>
+		</div>
+		<div class="red">	
+			<a href="https://www.instagram.com/sanrio/"><img src="img/ig.png" width="100px" height="100px"></a>	
+		</div>	
+		<div class="red">	
+			<br>
+			<a href="https://x.com/sanrio?lang=es"><img src="img/x.png" width="50px" height="50px"></a>
+		</div>	
+		<div class="center">
+			<p><br><br></p>
+			<p>© 2025 SANRIO CO., LTD.  All Rights Reserved.</p>
+		</div>
+		<div class="pie">
+			<img src="img/bes.png" width="400px" height="150px">
+		</div>
+	</footer>
+</body>
+</html>

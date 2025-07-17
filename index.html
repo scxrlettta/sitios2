@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<title>ETIQUETAS SEMANTICAS Y SLIDES</title>
+</head>
+<body>
+	<header>
+			<img src="img/san.png" width="100%" height="150px">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">INICIO</a></li>
+			<li><a href="servicios.html">SERVICIOS</a></li>
+			<li><a href="contactos.html"> CONTACTOS</a></li>
+			<li><a href="registrarse.html">REGISTRARSE</a></li>
+		</ul>
+	</nav>
+	<main>
+		<script>
+			$(function () {
+				//Slidershow 1
+				$("#slider1").responsiveSlides({
+					auto: true,
+					pager: true,
+					nav: true,
+					speed: 500,
+					maxwidth: 900,
+					namespace: "centered-btns"
+				});
+				});
+		</script>
+		<div id="wrapper">
+			<!-- Slidesshow -->
+			<div class="rslides_container">
+			<ul class="rslides" id="slider1">
+				<li><img src="img/purin.jpg"></li>
+				<li><img src="img/poc.jpg"></li>
+				<li><img src="img/sin.jpg"></li>
+			</ul>
+			</div>
+		</div>
+		<article>
+			<img src="img/1.png">
+		</article>
+		<article>
+			<img src="img/2.png" width="250px" height="300">
+		</article>
+		<article>
+			<img src="img/3.png">
+		</article>
+	</main>
+	<footer>
+		<div class="red">
+			<a href="https://www.facebook.com/Sanrio?locale=es_LA"><img src="img/feisbok.png" width="50px" height="100px"></a>
+		</div>
+		<div class="red">	
+			<a href="https://www.instagram.com/sanrio/"><img src="img/ig.png" width="100px" height="100px"></a>	
+		</div>	
+		<div class="red">	
+			<br>
+			<a href="https://x.com/sanrio?lang=es"><img src="img/x.png" width="50px" height="50px"></a>
+		</div>	
+		<div class="center">
+			<p><br><br></p>
+			<p>© 2025 SANRIO CO., LTD.  All Rights Reserved.</p>
+		</div>
+		<div class="pie">
+			<img src="img/bes.png" width="400px" height="150px">
+		</div>
+	</footer>
+</body>
+</html>
